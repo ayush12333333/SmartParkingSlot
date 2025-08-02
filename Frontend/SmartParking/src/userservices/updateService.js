@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8083/user";
+const BASE_URL = "https://smart-parking-slot-render.onrender.com/user";
 const token = localStorage.getItem("token");
 
 export async function fetchCurrentUser() {

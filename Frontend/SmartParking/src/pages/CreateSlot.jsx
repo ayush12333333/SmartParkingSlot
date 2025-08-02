@@ -28,7 +28,7 @@ const CreateSlot = () => {
 
   try {
     const res = await fetch(
-      `http://localhost:8083/api/parking/create?location=${encodeURIComponent(slotData.location)}&vehicleType=${slotData.vehicleType}`,
+      `https://smart-parking-slot-render.onrender.com/api/parking/create?location=${encodeURIComponent(slotData.location)}&vehicleType=${slotData.vehicleType}`,
       {
         method: "POST",
         headers: {

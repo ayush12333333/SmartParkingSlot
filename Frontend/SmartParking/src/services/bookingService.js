@@ -2,7 +2,7 @@
 
 
 export const fetchAllBookings = async (token) => {
-  const response = await fetch(`http://localhost:8083/api/bookings/admin/all-bookings`, {
+  const response = await fetch(`https://smart-parking-slot-render.onrender.com/api/bookings/admin/all-bookings`, {
     headers: {
       Authorization: `Bearer ${token}`,
     },

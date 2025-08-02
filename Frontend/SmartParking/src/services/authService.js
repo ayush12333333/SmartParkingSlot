@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8083/auth";
+const BASE_URL = "https://smart-parking-slot-render.onrender.com/auth";
 
 export async function loginUser(email, password) {
   const response = await fetch(`${BASE_URL}/login`, {

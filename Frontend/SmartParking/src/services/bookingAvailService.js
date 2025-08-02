@@ -2,7 +2,7 @@
 
 export const fetchAvailableSlots = async (location, vehicleType, token) => {
   const response = await fetch(
-    `http://localhost:8083/api/parking/available?location=${location}&vehicleType=${vehicleType}`,
+    `https://smart-parking-slot-render.onrender.com/api/parking/available?location=${location}&vehicleType=${vehicleType}`,
     {
       headers: {
         Authorization: `Bearer ${token}`,

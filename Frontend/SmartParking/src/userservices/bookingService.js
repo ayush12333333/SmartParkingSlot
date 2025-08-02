@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8083/api/bookings";
+const BASE_URL = "https://smart-parking-slot-render.onrender.com/api/bookings";
 
 export const getUserBookings = async () => {
   const res = await fetch(`${BASE_URL}/my-bookings`, {
@@ -22,7 +22,7 @@ export const cancelBooking = async (bookingId) => {
 };
 
 export const checkoutBooking = async (slotId) => {
-  const res = await fetch(`http://localhost:8083/api/bookings/checkout/${slotId}`, {
+  const res = await fetch(`https://smart-parking-slot-render.onrender.com/api/bookings/checkout/${slotId}`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8083/api";
+const BASE_URL = "https://smart-parking-slot-render.onrender.com/api";
 
 export const getAvailableSlots = async (location, vehicleType) => {
   const res = await fetch(
