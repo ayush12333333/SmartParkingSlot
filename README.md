@@ -132,7 +132,7 @@ Built with **React** and **Tailwind CSS** for fast and responsive UI. React Cont
     ```properties
     spring.jpa.hibernate.ddl-auto=update
     spring.jpa.show-sql=true
-    spring.datasource.url=jdbc:mysql://localhost:3306/smartparking
+    spring.datasource.url=jdbc:mysql://localhost:3306/parkandride
     ```
 
 ### 🧾 Tables in DB
